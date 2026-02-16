@@ -1,18 +1,18 @@
-# 📝 Volunteer Event App - Frontend Assignment
+# Volunteer Event App - Frontend Assignment
 
 Aplikasi sederhana untuk menampilkan daftar kegiatan relawan (Volunteer Events) dan pendaftaran event, dibangun menggunakan **React.js** dan **Tailwind CSS**.
 
-## 🚀 Live Demo
+## Live Demo
 [KUNJUNGI LIVE DEMO DISINI](https://axelba1337.github.io/volunteer-event-app/)
 
-## 🛠️ Stack yang Digunakan
+## Stack yang Digunakan
 - **Framework:** React.js (Vite)
 - **Styling:** Tailwind CSS (Versi 3)
 - **Routing:** React Router DOM (HashRouter untuk kompatibilitas GitHub Pages)
 - **HTTP Client:** Axios
 - **Icons & Images:** Lorem Picsum (Mock images)
 
-## 💻 Cara Menjalankan Project
+## Cara Menjalankan Project
 
 1. **Clone Repository**
    ```bash
@@ -36,7 +36,7 @@ Aplikasi sederhana untuk menampilkan daftar kegiatan relawan (Volunteer Events) 
    npm run build
    ```
 
-## 📂 Struktur Folder Singkat
+## Struktur Folder Singkat
 ```text
 root/
 ├── public/              # Statis file (logo, icon)
@@ -54,7 +54,7 @@ root/
 
 ---
 
-## ❓ Jawaban Pertanyaan Wajib
+## Jawaban Pertanyaan Wajib
 
 ### 1. Bagian tersulit apa dari sisi frontend?
 Menangani logika UX untuk situasi yang berlangsung secara asynchronous adalah bagian yang paling sulit. Situasi seperti ini termasuk saat API memuat data atau saat API gagal mengembalikan data. Meskipun aplikasi terlihat sederhana, mengelola state management dengan cermat diperlukan untuk menghindari layar putih kosong atau tombol yang sering diklik.
