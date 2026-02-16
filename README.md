@@ -57,14 +57,12 @@ root/
 ## ❓ Jawaban Pertanyaan Wajib
 
 ### 1. Bagian tersulit apa dari sisi frontend?
-Bagian tersulit adalah menangani **UX Logic untuk kondisi asynchronous**, seperti saat API memuat data (*Loading State*) atau saat API gagal mengembalikan data (*Error State*). Memastikan pengguna tidak melihat layar putih kosong atau tombol yang bisa diklik berkali-kali (double-submit) memerlukan penanganan *state management* yang teliti meskipun aplikasi terlihat sederhana.
+Menangani logika UX untuk situasi yang berlangsung secara asynchronous adalah bagian yang paling sulit. Situasi seperti ini termasuk saat API memuat data atau saat API gagal mengembalikan data. Meskipun aplikasi terlihat sederhana, mengelola state management dengan cermat diperlukan untuk menghindari layar putih kosong atau tombol yang sering diklik.
 
 ### 2. Jika diberi waktu 1 minggu, apa yang akan kamu tingkatkan?
 - **Global State Management:** Menggunakan Context API atau Redux untuk mengelola data user atau event favorit tanpa perlu re-fetching.
 - **Filter & Search:** Menambahkan fitur pencarian judul event dan filter berdasarkan kategori atau tanggal.
 - **Skeleton Loading:** Mengganti teks "Loading..." sederhana dengan *Skeleton Screen* agar UI terasa lebih premium.
-- **PWA (Progressive Web App):** Menjadikan aplikasi dapat diinstal di HP dan dapat diakses saat offline menggunakan service workers.
-- **Unit Testing:** Menambahkan Jest atau Vitest untuk memastikan fungsi fetching dan komponen UI berjalan dengan benar.
 
 ### 3. Asumsi UX apa yang kamu ambil?
 - **Mobile First:** Diasumsikan sebagian besar pengguna mencari kegiatan volunteer melalui HP, sehingga desain dibuat sangat responsif.
